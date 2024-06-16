@@ -1,0 +1,148 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #FFFFFF;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.header-nav-link {
+  color: #2E2E2E;
+}
+.header-button {
+  background-color: red;
+  width: 75px;
+  height: 31px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-button-text {
+  color: #FFFFFF;
+}
+.header-nav-link:hover {
+  color: brown;
+}
+.header-button:hover {
+  background-color: brown;
+}
+.header-button-text:hover {
+  color: red;
+}
+
+.wrapper {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 120%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1420px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea,
+label,
+input,
+button,
+select {
+  border: none;
+  background: none;
+}
+
+::-moz-placeholder {
+  color: aliceblue;
+}
+
+::placeholder {
+  color: aliceblue;
+}
+
+.banner {
+  width: 100%;
+}
+.banner-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-left {
+  display: flex;
+  flex-direction: column;
+}
+.banner-left-title {
+  max-width: 595px;
+  font-size: 98px;
+  font-weight: 800;
+  line-height: 102px;
+  color: #000000;
+}
+.banner-left-subtitle {
+  max-width: 404px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #5A5959;
+}
+.banner-left-buttons {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+.banner-left-buttons-buy {
+  width: 118px;
+  height: 29px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+.banner-left-buttons-buy-text {
+  color: #FFFFFF;
+}
+.banner-left-buttons-category {
+  border: 1px solid #2E2E2E;
+  width: 109px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+.banner-left-buttons-category-text {
+  color: #2E2E2E;
+}
+.banner-left-buttons-buy:hover {
+  border: 1px solid #2E2E2E;
+  background: none;
+  border-radius: 8px;
+}
+.banner-left-buttons-buy-text:hover {
+  color: red;
+}
+.banner-left-buttons-category:hover {
+  background-color: red;
+  border-radius: 8px;
+}
+.banner-left-buttons-category-text:hover {
+  color: #FFFFFF;
+}/*# sourceMappingURL=main.css.map */

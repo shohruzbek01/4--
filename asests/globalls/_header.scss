@@ -1,0 +1,41 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #FFFFFF;
+    &-row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+    &-nav{
+        display: flex;
+        align-items: center;
+        gap: 35px;
+        &-link{
+            color:#2E2E2E;
+        }
+    }
+    &-button{
+        background-color: red;
+        width:75px;
+        height:31px;
+        border-radius:8px ;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+        &-text{
+            color: #FFFFFF;
+        }
+    }
+    &-nav-link:hover{
+        color: brown;
+    }
+    &-button:hover{
+       background-color:  brown;
+    }
+    &-button-text:hover{
+        color: red;
+    }
+    
+}
